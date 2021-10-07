@@ -66,7 +66,7 @@ a:focus {
     right: 0;
     bottom: 0;
     left: 0;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     background: #ffffff;
@@ -76,6 +76,7 @@ a:focus {
     -o-transition: opacity .3s ease-out, visibility 0s linear .3s;
     transition: opacity .3s ease-out, visibility 0s linear .3s;
     z-index: 999;
+    grid-template-columns:repeat(12,1fr);
 }
 
 #loader.show {
